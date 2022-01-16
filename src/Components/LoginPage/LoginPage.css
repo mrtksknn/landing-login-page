@@ -1,0 +1,142 @@
+.Login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #00b4db 0%, #0083b0 100%);
+}
+.container {
+  width: 1427px;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  background: #fff;
+}
+.avatar {
+  width: 100%;
+  background-color: #e2eef5;
+  height: 850px;
+  border-radius: 40px;
+}
+.avatar img {
+  width: 900px;
+  height: 850px;
+  border-radius: 40px;
+}
+.container .form {
+  width: 50%;
+  height: 595px;
+  display: flex;
+  z-index: 33;
+  margin-left: 128px;
+  justify-content: center;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+.form .header {
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 28px;
+  line-height: 46px;
+  color: #414042;
+}
+.form img {
+  width: 50px;
+  height: 50px;
+}
+p {
+  width: fit-content;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #465685;
+}
+.forgot:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.sign {
+  width: 400px;
+  height: 50px;
+  margin: 40px 0;
+  background: #a93159;
+  border-radius: 40px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.link-menu {
+  width: 100%;
+  text-align: center;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  margin-bottom: 16px;
+  justify-content: center;
+  align-items: center;
+  color: #798995;
+}
+.link-button {
+  width: 100%;
+  display: flex;
+  margin-bottom: 32px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.link-button button {
+  width: 125px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #bcbec0;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+.link-button button img {
+  width: 24px;
+  height: 24px;
+  border-radius: 40px;
+}
+.account {
+  width: 100%;
+  text-align: center;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  color: #bcbec0;
+}
+.account span {
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 5px;
+  line-height: 17px;
+}
+span a {
+  color: #465685;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

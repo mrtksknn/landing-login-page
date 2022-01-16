@@ -1,0 +1,50 @@
+.LandingPage {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-content {
+  width: 500px;
+  height: 587px;
+  text-align: center;
+  margin-right: 50px;
+}
+.landing-content p {
+  font-weight: 700;
+  text-align: initial;
+  font-size: 47.7488px;
+  line-height: 58px;
+  margin-bottom: 35px;
+  font-style: normal;
+  font-family: 'Gilroy', sans-serif;
+}
+.main-content {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 188.8%;
+  text-align: justify;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+}
+.arrow {
+  margin: 35px 0 43px 0;
+}
+button {
+  width: 100%;
+  height: 90px;
+  border: none;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 163.8%;
+  border-radius: 100px;
+  background: linear-gradient(0deg, #ea5050 0%, #ee745b 100%);
+}
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(0deg, #b14b4b 0%, #c96e5c 100%);
+}
